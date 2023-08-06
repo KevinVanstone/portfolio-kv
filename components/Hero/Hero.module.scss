@@ -7,14 +7,16 @@
   height: 30vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 2rem;
+  justify-content: flex-start;
+  padding: 0 2rem;
   background-color: $kv-black;
-  border-top: 2px solid $kv-white;
-  border-bottom: 2px solid $kv-white;
-}
+  background-image: url(../../assets/images/Vancouver.jpg);
+  background-size: cover;
 
-.hed,
-.subhed {
-  color: $kv-white;
+  &__hed {
+    color: black;
+  }
+  &__subhed {
+    color: black;
+  }
 }
