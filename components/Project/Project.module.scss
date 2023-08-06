@@ -33,4 +33,28 @@
     color: $kv-white;
     margin: 1rem 0 0 1rem;
   }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  &__links-name {
+    font-size: 16px;
+  }
+
+  &__tech-link {
+    color: $kv-white;
+    margin: 0 1rem;
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    border: 1px solid $kv-white;
+    border-radius: 10px;
+  }
+
+  &__tech-link:hover {
+    text-decoration: underline;
+  }
 }

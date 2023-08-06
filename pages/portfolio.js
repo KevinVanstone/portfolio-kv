@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Hero from "../components/Hero/Hero";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
