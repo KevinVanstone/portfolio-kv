@@ -1,0 +1,14 @@
+@import "../../styles/partials/variables";
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/themes";
+
+.project {
+  width: 350px;
+  height: 200px;
+  background-color: grey;
+}
+
+.hed,
+.subhed {
+  color: $kv-white;
+}

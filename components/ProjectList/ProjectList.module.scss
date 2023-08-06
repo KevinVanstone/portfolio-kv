@@ -1,0 +1,20 @@
+@import "../../styles/partials/variables";
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/themes";
+
+.projectList {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: $kv-black;
+  border-top: 2px solid $kv-white;
+  border-bottom: 2px solid $kv-white;
+}
+
+.hed,
+.subhed {
+  color: $kv-white;
+}
