@@ -4,13 +4,17 @@ import Project from "../Project/Project";
 
 const myProjects = [
   {
-    name: "Project 1",
+    name: "Better Bettor Dashboard",
+    tech: "React",
+    tech2: "Express",
+    tech3: "SASS",
+    description: "The Better Bettor Dashboard is a web application that leverages the NHL Stats API to present bettors with the information they need to make LIVE betting decisions."
   },
   {
-    name: "Project 2",
+    name: "Open Seer",
   },
   {
-    name: "Project 3",
+    name: "Rogers Arena",
   },
 ];
 
