@@ -10,6 +10,8 @@ const myProjects = [
     tech3: "SASS",
     description:
       "The Better Bettor Dashboard is a web application that leverages the NHL Stats API to present bettors with the information they need to make LIVE betting decisions.",
+    site: "",
+    github: "",
   },
   {
     name: "Open Seer",
@@ -18,6 +20,8 @@ const myProjects = [
     tech3: "MongoDB",
     description:
       "Open Seer is a web application that enables users to save the JPG from an NFT into their account, without actually owning the NFT itself.",
+    site: "",
+    github: "https://github.com/KevinVanstone/OpenSeer",
   },
   {
     name: "Rogers Arena",
@@ -26,6 +30,8 @@ const myProjects = [
     tech3: "CSS",
     description:
       "I rebuilt the Rogers Arena website in the fall of 2022 in order to elevate the venue's web presence while providing a simple method for fans to find and secure the tickets they desire.",
+    site: "https://rogersarena.com/",
+    github: "",
   },
   {
     name: "Abbotsford Centre",
@@ -34,6 +40,8 @@ const myProjects = [
     tech3: "CSS",
     description:
       "I rebuilt the Abbotsford Centre website in the summer of 2023 in order to elevate the venue's web presence while providing a simple method for fans to find and secure the tickets they desire.",
+    site: "https://www.abbotsfordcentre.ca/",
+    github: "",
   },
 ];
 
@@ -41,7 +49,6 @@ const ProjectList = () => {
   return (
     <>
       <div className={styles[`projectList`]}>
-        <h3 className={styles[`subhed`]}>This is the Projects List</h3>
         {myProjects &&
           myProjects.map((project) => {
             return <Project data={project} key={`project-${project.name}`} />;
