@@ -20,7 +20,7 @@ const Modal = ({ show, onClose }) => {
       <Link href="/about">
         <p className={styles[`modal-item`]}>About</p>
       </Link>
-      <Link href="/resume">
+      <Link href="/pdfs/Kevin-Vanstone-CV-2023.pdf">
         <p className={styles[`modal-item`]}>Resume</p>
       </Link>
       <p onClick={onClose} className={styles[`modal-item`]}>
