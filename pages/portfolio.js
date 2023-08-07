@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import ProjectList from "../components/ProjectList/ProjectList";
 
+
 export default function Home() {
   return (
     <>

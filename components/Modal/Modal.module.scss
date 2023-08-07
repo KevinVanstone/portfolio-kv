@@ -1,0 +1,27 @@
+@import "../../styles/partials/variables";
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/themes";
+
+.modal-content {
+  background-color: $kv-black;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 94px;
+  border-bottom: 2px solid $kv-white;
+}
+
+.modal-item {
+  color: $kv-white;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 28px;
+}
+
+.modal-item:hover {
+  background-color: darkgrey;
+}

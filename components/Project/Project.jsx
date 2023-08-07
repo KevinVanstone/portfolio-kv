@@ -16,20 +16,24 @@ const Project = ({ data }) => {
       </div>
       <p className={styles[`project__tech-desc`]}>{data.description}</p>
       <div className={styles[`project__buttons`]}>
-        <Link href={data.site} className={styles[`project__button-link`]}>
-          View Site
-          <FontAwesomeIcon
-            icon={faHandPointer}
-            style={{ fontSize: 20, color: "white", marginLeft: "5px" }}
-          />
-        </Link>
-        <Link href={data.github} className={styles[`project__button-link`]}>
-          View Code
-          <FontAwesomeIcon
-            icon={faGithub}
-            style={{ fontSize: 20, color: "white", marginLeft: "5px" }}
-          />
-        </Link>
+        {data.site && (
+          <Link href={data.site} className={styles[`project__button-link`]}>
+            View Site
+            <FontAwesomeIcon
+              icon={faHandPointer}
+              style={{ fontSize: 20, color: "white", marginLeft: "5px" }}
+            />
+          </Link>
+        )}
+        {data.github && (
+          <Link href={data.github} className={styles[`project__button-link`]}>
+            View Code
+            <FontAwesomeIcon
+              icon={faGithub}
+              style={{ fontSize: 20, color: "white", marginLeft: "5px" }}
+            />
+          </Link>
+        )}
       </div>
     </section>
   );

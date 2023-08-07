@@ -10,8 +10,8 @@ const myProjects = [
     tech3: "SASS",
     description:
       "The Better Bettor Dashboard is a web application that leverages the NHL Stats API to present bettors with the information they need to make LIVE betting decisions.",
-    site: "",
-    github: "",
+    site: "https://github.com/KevinVanstone/bettor-hockey-dashboard",
+    github: "https://github.com/KevinVanstone/bettor-hockey-dashboard",
   },
   {
     name: "Open Seer",
@@ -20,7 +20,7 @@ const myProjects = [
     tech3: "MongoDB",
     description:
       "Open Seer is a web application that enables users to save the JPG from an NFT into their account, without actually owning the NFT itself.",
-    site: "",
+    site: "https://github.com/KevinVanstone/OpenSeer",
     github: "https://github.com/KevinVanstone/OpenSeer",
   },
   {
