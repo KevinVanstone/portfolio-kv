@@ -14,9 +14,25 @@
 
   &__logoList {
     width: 70%;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  &__logoList-container {
+    height: 40px;
+    width: 50px;
+  }
+
+  &__logo-icon {
+    color: silver;
+    font-size: 40px;
+  }
+
+  &__logo-icon:hover {
+    color: white;
+    font-size: 42px;
   }
 }
 

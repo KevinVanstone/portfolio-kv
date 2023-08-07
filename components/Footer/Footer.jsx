@@ -9,24 +9,30 @@ const Footer = () => {
   return (
     <section className={styles[`footer`]}>
       <div className={styles[`footer__logoList`]}>
-        <Link href="mailto:kv@theflyingv.com">
-          <FontAwesomeIcon
-            icon={faEnvelope}
-            style={{ fontSize: 40, color: "white", marginLeft: "5px" }}
-          />
-        </Link>
-        <Link href="https://github.com/KevinVanstone">
-          <FontAwesomeIcon
-            icon={faGithub}
-            style={{ fontSize: 40, color: "white", marginLeft: "5px" }}
-          />
-        </Link>
-        <Link href="https://www.linkedin.com/in/kevin-vanstone">
-          <FontAwesomeIcon
-            icon={faLinkedin}
-            style={{ fontSize: 40, color: "white", marginLeft: "5px" }}
-          />
-        </Link>
+        <div className={styles[`footer__logoList-container`]}>
+          <Link href="mailto:kv@theflyingv.com">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className={styles[`footer__logo-icon`]}
+            />
+          </Link>
+        </div>
+        <div className={styles[`footer__logoList-container`]}>
+          <Link href="https://github.com/KevinVanstone">
+            <FontAwesomeIcon
+              icon={faGithub}
+              className={styles[`footer__logo-icon`]}
+            />
+          </Link>
+        </div>
+        <div className={styles[`footer__logoList-container`]}>
+          <Link href="https://www.linkedin.com/in/kevin-vanstone">
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className={styles[`footer__logo-icon`]}
+            />
+          </Link>
+        </div>
       </div>
       <h5 className={styles[`subhed`]}>Created by Kevin Vanstone</h5>
     </section>

@@ -13,7 +13,13 @@
   border-bottom: 2px solid $kv-white;
 }
 
-.hed,
-.subhed {
-  color: $kv-white;
+.menuIcon {
+  color: silver;
+  font-size: 40px;
+}
+
+.menuIcon:hover {
+  cursor: pointer;
+  color: white;
+  font-size: 42px;
 }

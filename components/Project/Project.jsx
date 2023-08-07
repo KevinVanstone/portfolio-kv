@@ -23,7 +23,7 @@ const Project = ({ data }) => {
             View Site
             <FontAwesomeIcon
               icon={faHandPointer}
-              style={{ fontSize: 20, color: "white", marginLeft: "5px" }}
+              className={styles[`project__button-icon`]}
             />
           </Link>
         )}
@@ -32,7 +32,7 @@ const Project = ({ data }) => {
             View Code
             <FontAwesomeIcon
               icon={faGithub}
-              style={{ fontSize: 20, color: "white", marginLeft: "5px" }}
+              className={styles[`project__button-icon`]}
             />
           </Link>
         )}

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Header.module.scss";
 import Image from "next/image";
 import headshot from "../../assets/images/headshot.jpeg";
+import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
@@ -36,17 +37,19 @@ const Header = () => {
   return (
     <>
       <section className={styles[`header`]}>
-        <Image
-          src={headshot}
-          width={60}
-          height={60}
-          alt="Developer Kevin Vanstone"
-          style={headshotStyle}
-        />
+        <Link href="/about">
+          <Image
+            src={headshot}
+            width={60}
+            height={60}
+            alt="Developer Kevin Vanstone"
+            style={headshotStyle}
+          />
+        </Link>
         <FontAwesomeIcon
           icon={menuModal}
-          style={{ fontSize: 40, color: "white", marginLeft: "5px" }}
           onClick={handleButtonClick}
+          className={styles[`menuIcon`]}
         />
       </section>
       <Modal show={modalVisible} onClose={handleCloseModal} />

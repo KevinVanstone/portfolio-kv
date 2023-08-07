@@ -48,10 +48,23 @@
     padding: 0.8rem 1rem;
     border: 2px solid silver;
     border-radius: 10px;
-    min-width: 140px;
+    width: 150px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 60px;
+  }
+
+  &__button-link:hover {
+    color: white;
+    border: 2px solid white;
+    font-size: 19px;
+  }
+
+  &__button-icon {
+    margin-left: 5px;
   }
 
   &__button-subhedLink {
@@ -61,15 +74,5 @@
   &__button-subhedLink:hover {
     color: white;
     text-decoration: underline;
-  }
-
-  &__button-link:hover {
-    color: white;
-    border: 2px solid white;
-  }
-
-  &__button-link:hover {
-    text-decoration: underline;
-    color: white;
   }
 }
