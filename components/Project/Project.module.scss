@@ -10,6 +10,8 @@
   flex-direction: column;
   align-items: center;
   color: white;
+  max-width: 600px;
+  margin: 0 auto;
 
   &__tech {
     display: flex;
@@ -24,6 +26,7 @@
 
   &__tech-subhed {
     color: $kv-white;
+    font-size: 28px;
   }
 
   &__tech-desc {
@@ -39,11 +42,11 @@
   }
 
   &__button-link {
-    color: $kv-white;
+    color: silver;
     margin: 0 1rem;
     text-decoration: none;
     padding: 0.8rem 1rem;
-    border: 1px solid $kv-white;
+    border: 2px solid silver;
     border-radius: 10px;
     min-width: 140px;
     display: flex;
@@ -51,7 +54,22 @@
     justify-content: center;
   }
 
+  &__button-subhedLink {
+    text-decoration: none;
+  }
+
+  &__button-subhedLink:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  &__button-link:hover {
+    color: white;
+    border: 2px solid white;
+  }
+
   &__button-link:hover {
     text-decoration: underline;
+    color: white;
   }
 }

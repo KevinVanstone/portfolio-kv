@@ -8,7 +8,9 @@ import { faHandPointer } from "@fortawesome/free-regular-svg-icons";
 const Project = ({ data }) => {
   return (
     <section className={styles[`project`]}>
-      <h3 className={styles[`project__tech-subhed`]}>{data.name}</h3>
+      <Link href={data.site} className={styles[`project__button-subhedLink`]}>
+        <h2 className={styles[`project__tech-subhed`]}>{data.name}</h2>
+      </Link>
       <div className={styles[`project__tech`]}>
         <p className={styles[`project__tech-name`]}>{data.tech}</p>
         <p className={styles[`project__tech-name`]}>{data.tech2}</p>

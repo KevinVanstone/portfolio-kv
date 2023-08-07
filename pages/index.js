@@ -4,12 +4,11 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import ProjectList from "../components/ProjectList/ProjectList";
 
-
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Kevin Vanstone - Web Dev</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>

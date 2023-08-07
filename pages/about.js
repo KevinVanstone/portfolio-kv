@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>About Kevin Vanstone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>

@@ -19,7 +19,7 @@ const myProjects = [
     tech2: "Express",
     tech3: "MongoDB",
     description:
-      "Open Seer is a web application that enables users to save the JPG from an NFT into their account, without actually owning the NFT itself.",
+      "Open Seer is a web application that enables users to search the Ethereum blockchain for NFTs and save the JPG from an NFT into their account, without actually owning the NFT itself.",
     site: "https://github.com/KevinVanstone/OpenSeer",
     github: "https://github.com/KevinVanstone/OpenSeer",
   },
