@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is the web porfolio of Kevin Vanstone, Web Developer, Vancouver British Columbia.

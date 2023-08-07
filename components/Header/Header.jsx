@@ -21,6 +21,11 @@ const Header = () => {
   const handleButtonClick = () => {
     setModalVisible(true);
     setmenuModal(faX);
+
+    if (modalVisible) {
+      setModalVisible(false);
+      setmenuModal(faBars);
+    }
   };
 
   const handleCloseModal = () => {

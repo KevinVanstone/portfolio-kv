@@ -2,8 +2,7 @@ import Head from "next/head";
 import Hero from "../components/Hero/Hero";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import ProjectList from "../components/ProjectList/ProjectList";
-
+import About from "../components/About/About";
 
 export default function Home() {
   return (
@@ -13,8 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
-      <Hero></Hero>
-      <ProjectList></ProjectList>
+      <About></About>
       <Footer></Footer>
 
       <style jsx global>{`
