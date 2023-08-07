@@ -4,7 +4,7 @@ import Image from "next/image";
 import headshot from "../../assets/images/headshot.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 import Modal from "../../components/Modal/Modal";
@@ -16,12 +16,16 @@ const headshotStyle = {
 const Header = () => {
   const [modalVisible, setModalVisible] = useState(false);
 
+  const [menuModal, setmenuModal] = useState(faBars);
+
   const handleButtonClick = () => {
     setModalVisible(true);
+    setmenuModal(faX);
   };
 
   const handleCloseModal = () => {
     setModalVisible(false);
+    setmenuModal(faBars);
   };
 
   return (
@@ -35,7 +39,7 @@ const Header = () => {
           style={headshotStyle}
         />
         <FontAwesomeIcon
-          icon={faBars}
+          icon={menuModal}
           style={{ fontSize: 40, color: "white", marginLeft: "5px" }}
           onClick={handleButtonClick}
         />
