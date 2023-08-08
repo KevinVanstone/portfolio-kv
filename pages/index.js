@@ -3,7 +3,6 @@ import Hero from "../components/Hero/Hero";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import ProjectList from "../components/ProjectList/ProjectList";
-import "/styles/global.scss";
 
 export default function Home() {
   return (
