@@ -17,9 +17,9 @@ const Modal = ({ show, onClose }) => {
           />
         </p>
       </Link>
-      <Link href="/about">
+      {/* <Link href="/about">
         <p className={styles[`modal-item`]}>About</p>
-      </Link>
+      </Link> */}
       <Link href="/pdfs/Kevin-Vanstone-CV.pdf">
         <p className={styles[`modal-item`]}>Resume</p>
       </Link>
