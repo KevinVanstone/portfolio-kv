@@ -8,11 +8,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 2rem;
   background-color: $kv-black;
   background-image: url(../../assets/images/Vancouver.jpg);
   background-size: cover;
-
+  background-position: center;
   &__hed {
     color: black;
   }

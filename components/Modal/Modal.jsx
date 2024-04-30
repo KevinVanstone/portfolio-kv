@@ -9,7 +9,7 @@ const Modal = ({ show, onClose }) => {
   if (!show) return null;
   return (
     <div className={styles[`modal-content`]}>
-      <Link href="/portfolio">
+      <Link href="/">
         <p className={styles[`modal-item`]}>
           <FontAwesomeIcon
             icon={faHome}
@@ -20,7 +20,7 @@ const Modal = ({ show, onClose }) => {
       <Link href="/about">
         <p className={styles[`modal-item`]}>About</p>
       </Link>
-      <Link href="/pdfs/Kevin-Vanstone-CV-2023.pdf">
+      <Link href="/pdfs/Kevin-Vanstone-CV.pdf">
         <p className={styles[`modal-item`]}>Resume</p>
       </Link>
       <p onClick={onClose} className={styles[`modal-item`]}>

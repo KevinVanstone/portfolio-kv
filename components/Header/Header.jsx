@@ -37,7 +37,7 @@ const Header = () => {
   return (
     <>
       <section className={styles[`header`]}>
-        <Link href="/about">
+        <Link href="/">
           <Image
             src={headshot}
             width={60}
