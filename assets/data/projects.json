@@ -1,21 +1,12 @@
 [
   {
-    "name": "Abbotsford Centre",
-    "tech": "WordPress",
-    "tech2": "PHP",
-    "tech3": "CSS",
-    "description": "I rebuilt the Abbotsford Centre website in the summer of 2023 in order to elevate the venue's web presence while providing a simple method for fans to find and secure the tickets they desire.",
-    "site": "https://www.abbotsfordcentre.ca/",
-    "github": ""
-  },
-  {
     "name": "Bettor Hockey Dashboard",
     "tech": "NextJS",
     "tech2": "React",
     "tech3": "SASS",
     "description": "The Better Bettor Dashboard is a web application that leverages the NHL Stats API to present bettors with the information they need to make LIVE betting decisions.",
-    "site": "https://github.com/KevinVanstone/bettor-hockey-dashboard",
-    "github": "https://github.com/KevinVanstone/bettor-hockey-dashboard"
+    "site": "https://www.bettorhockey.com/",
+    "github": ""
   },
   {
     "name": "Canucks Ticketing Site",
@@ -42,6 +33,15 @@
     "tech3": "CSS",
     "description": "I rebuilt the Rogers Arena website in the fall of 2022 in order to elevate the venue's web presence while providing a simple method for fans to find and secure the tickets they desire.",
     "site": "https://rogersarena.com/",
+    "github": ""
+  },
+  {
+    "name": "Abbotsford Centre",
+    "tech": "WordPress",
+    "tech2": "PHP",
+    "tech3": "CSS",
+    "description": "I rebuilt the Abbotsford Centre website in the summer of 2023 in order to elevate the venue's web presence while providing a simple method for fans to find and secure the tickets they desire.",
+    "site": "https://www.abbotsfordcentre.ca/",
     "github": ""
   }
 ]
